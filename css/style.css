@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(241, 223, 241);
+}
+/*start div main*/
+.main{
+    width: 500px;
+    height: 200px;
+    margin-left: 350px;
+    padding:20px;
+    background-color: rgb(58, 150, 231);
+    border-radius: 5px;
+    
+}
+/*start all buttons*/
+.main button{
+    width: 160px;
+    padding: 7px;
+    border: none;
+    margin: 2px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+}
+/*start message div*/
+.main .message{
+    padding: 20px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+/*class active*/
+.active{
+    background-color: rgb(230, 55, 186);
+    border: solid 1.5px rgb(33, 16, 131) !important;
+}
